@@ -7,7 +7,6 @@ const Form = (props) => {
 
     const [username, setUserName] = useState('')
     const [password, setPassword] = useState('')
-    const [fail, setFail] = useState('')
     const [result, setResult] = useState('')
 
 
@@ -40,7 +39,7 @@ const Form = (props) => {
                 </div>
             </form>
             <div>
-                {fail}
+                
                 {result}
             </div>
         </div>
